@@ -31,6 +31,8 @@ First thing we had to decide on was what our robot was going to look like and wh
 | Lower Arm   | 0.35 m |
 | Manipulator | 0.2 m  |
 
+<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/1782fb96-0bc4-4548-a9eb-e5dd55f5fd2d" width="400" />
+
 With the model built we used these calculations to determine the Inverse Kinimatics  
 
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/0d44e10d-c01c-4d14-b0f6-5c57ba3a7706" width="400" />
