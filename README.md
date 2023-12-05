@@ -9,14 +9,16 @@
 - Qitai: Was part of the team that created the code that allowed the manipulator to grab onto the rings
 
 ### Introduction
-The idea behind this project was to design and develope a robot that could play the puzzle game of towers of hanoi. 
-Through putting together and codeing this robot, we can explore a number of different topics including but not limited to: 
-Inverse kinimatics, Rigid body transformation matrices, Using a Jacobian to trnasfrom from joint spce to task space, Implementing a method to manipulated/grab 
-objects in CopelliaSim. 
-We eventually want to demonstrate a robot that can pick up rings and set them down onto another tower much similar to the robot in the figure below 
- 
-<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/e40a8e2d-c2a4-43e0-85f3-ec776238f8db" width="400" />
+The idea behind this project was to design and develope a robot that could play the puzzle game of towers of hanoi.  
 
+Through putting together and codeing this robot, we can explore a number of different topics including but not limited to:  
+
+Inverse kinimatics, Rigid body transformation matrices, Using a Jacobian to trnasfrom from joint spce to task space, Implementing a method to manipulated/grab 
+objects in CopelliaSim.  
+
+We eventually want to demonstrate a robot that can pick up rings and set them down onto another tower much similar to the robot in the figure below  
+ 
+<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/df43d6fb-c843-4bf8-911b-9da61c6e5b50" width="400" />
 
 ### Approach
 We design a static robot that would have the ability to pick up the rings and move them onto the right towers.
