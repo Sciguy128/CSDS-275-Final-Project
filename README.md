@@ -10,7 +10,11 @@
 
 ### Introduction
 The idea behind this project was to design and develope a robot that could play the puzzle game of towers of hanoi. 
-
+Through putting together and codeing this robot, we can explore a number of different topics including but not limited to: 
+Inverse kinimatics, Rigid body transformation matrices, Using a Jacobian to trnasfrom from joint spce to task space, Implementing a method to manipulated/grab 
+objects in CopelliaSim. 
+We eventually want to demonstrate a robot that can pick up rings and set them down onto another tower much similar to the robot in the figure below 
+ 
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/e40a8e2d-c2a4-43e0-85f3-ec776238f8db" width="400" />
 
 
