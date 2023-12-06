@@ -45,7 +45,10 @@ After working out that math, we checked it by dragging around the End Effector P
 
 We then put in a waypoint following program and had the robot move to each ring using both types of control methods to pick them up and move them to the other towers.
 
-Can someone make a flow chart, showing how each part of the code interacts with each other?
+Below is a flow chart demonstrating how each portion of our code interacts with each other.  
+
+![Screenshot 2023-12-06 at 3 24 48 PM](https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/09ce85c5-9d57-4953-b46d-b0fc394e0cd9)
+
 
 ### Results
 
