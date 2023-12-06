@@ -45,8 +45,20 @@ We did something similar and implemented robot control with a Jacobian transform
 
 We then put in a waypoint following program and had the robot move to each ring using both types of control methods to pick them up and move them to the other towers.
 
-
+Can someone make a flow chart, showing how each part of the code interacts with each other?
 
 ### Results
+
+https://youtu.be/ubXWTYJRJ70   
+
+<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/e49d92b6-3c07-492c-bf76-e3b9a879c666" width="600" />  
+
+<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/398cefac-fbb3-4b76-8c48-af6e7e5713c0" width="600" />  
+
+<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/1d2d1f1e-6323-45c7-85dc-bd122e2a7d60" width="600" />  
+
+
+
+
 
 ### Conclusion
