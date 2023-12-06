@@ -2,10 +2,10 @@
 ## By Aidan Leblanc, David Kraus, Gentiana Deda, Oneal Egwuatu, Qitai Huang
 
 ### Roles on jobs of team members
-- Aidan: Group organizer and designer of robot and robot environment. Also computed the inverse kinematics of the robots
+- Aidan: Group organizer and designer of robot and robot environment. Also computed the inverse kinematics of the robots.
 - David: Designed the manipulator and compiled code and videos into the GitHub repository
 - Gentiana: Created rings for the robot to manipulate, and worked on the robot path planning
-- Oneal: Was part of the team that created the code that allowed the manipulator to grab onto the rings
+- Oneal: 
 - Qitai:
 
 ### Introduction
