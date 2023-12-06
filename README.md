@@ -94,10 +94,11 @@ Here we can see the robot moving the rings from tower 3 to tower 2. Similarly, w
 
 And lastly, the robot moves the rings back to tower 1 by setting the TARGET_STATE = 1  
 
-We need to talk about what the final capabilities of this robot are, what its are shortcomings and what could be improved in the future.
-
 
 ### Conclusion
 
-Summarize what you did, and the result that you achieved. Discuss how the work can be further developed
-or improved in the future.
+As it stands now, the robot is capable of solving any configuration of the towers of Hanoi. This means that within the controlled Coppeliasim system, the robot can stack the rings on any of the three towers.
+
+A limitation of this robot's implementation is that it requires prior knowledge about the nature of the world. For example, the person controlling this robot needs to specify the starting state of the robot to ensure that it functions correctly. To improve the robot, computer vision could be applied to detect the configuration at any given time.
+
+The robot could also be further developed to play the game with more than three rings. This implementation would not significantly increase the complexity of the robot’s movements, but would rather increase the complexity of the states of the game.
