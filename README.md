@@ -13,8 +13,7 @@ The idea behind this project was to design and develop a robot that could play t
 
 Through putting together and coding this robot, we can explore a number of different topics including but not limited to:  
 
-Inverse kinematics, Rigid body transformation matrices, Using a Jacobian to transition from joint space to task space, Implementing a method to manipulate/grab 
-objects in CopelliaSim.  
+Inverse kinematics, Rigid body transformation matrices, Implementing a method to manipulate/grab objects in CopelliaSim.  
 
 We eventually want to demonstrate a robot that can pick up rings and set them down onto another tower much similar to the robot in the figure below  
  
@@ -79,7 +78,8 @@ All of the code was done in Lua, as we didn't have a need for any plugins or lib
 
 The Robot ended up having three states that it can move in between. If you imagine that each tower is labeled 1 through 3, then the robot is able to move all three rings from one tower to another, while making sure to follow to rules of the game.  
 
-Below is a YouTube link showing the full range of capabilities of the robot.
+Below is a YouTube link showing the full range of capabilities of the robot.  
+
 https://youtu.be/ubXWTYJRJ70   
 
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/e49d92b6-3c07-492c-bf76-e3b9a879c666" width="600" />  
