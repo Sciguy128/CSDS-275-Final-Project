@@ -70,7 +70,9 @@ We then put in a waypoint following program and had the robot move to each ring 
 
 Below is a flow chart demonstrating how each portion of our code interacts with each other.  
 
-![Screenshot 2023-12-06 at 3 24 48 PM](https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/09ce85c5-9d57-4953-b46d-b0fc394e0cd9)
+<img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/09ce85c5-9d57-4953-b46d-b0fc394e0cd9" width="600" />  
+
+All of the code was done in Lua, as we didn't have a need for any plugins or libraries that we could've gotten from Python.
 
 
 ### Results
