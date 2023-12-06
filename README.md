@@ -37,12 +37,14 @@ With the model built, we used these calculations to determine the Inverse Kinema
 
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/0d44e10d-c01c-4d14-b0f6-5c57ba3a7706" width="400" />
 
-After working out that math, we checked it by dragging around the End Effector Point, just like in the homework we've done.
+After working out that math, we checked it by dragging around the End Effector Point, just like in the homework we've done.  
+
 ![Untitled video - Made with Clipchamp (1)](https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/35c681f2-7a70-4d9f-bb4d-f37bd8b5223c)
 
 We did something similar and implemented robot control with a Jacobian transformation before moving on to the next step 
 
-We then put in a waypoint following program and had the robot move to each ring using both types of control methods and pick them up and move them to the other towers.
+We then put in a waypoint following program and had the robot move to each ring using both types of control methods to pick them up and move them to the other towers.
+
 
 
 ### Results
