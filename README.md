@@ -6,7 +6,7 @@
 - David: Designed the manipulator and compiled code and videos into the GitHub repository
 - Gentiana: Created rings for the robot to manipulate, and worked on the robot path planning
 - Oneal: Was part of the team that created the code that allowed the manipulator to grab onto the rings
-- Qitai: Was part of the team that created the code that allowed the manipulator to grab onto the rings
+- Qitai:
 
 ### Introduction
 The idea behind this project was to design and develop a robot that could play the puzzle game of towers of hanoi.  
@@ -58,7 +58,10 @@ https://youtu.be/ubXWTYJRJ70
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/1d2d1f1e-6323-45c7-85dc-bd122e2a7d60" width="600" />  
 
 
-
+We need to talk about what the final capabilities of this robot are, what its are shortcomings and what could be improved in the future.
 
 
 ### Conclusion
+
+Summarize what you did, and the result that you achieved. Discuss how the work can be further developed
+or improved in the future.
