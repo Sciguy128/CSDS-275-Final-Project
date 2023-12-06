@@ -37,7 +37,30 @@ With the model built, we used these calculations to determine the Inverse Kinema
 
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/0d44e10d-c01c-4d14-b0f6-5c57ba3a7706" width="400" />
 
-After working out that math, we checked it by dragging around the End Effector Point, just like in the homework we've done.  
+Here's what that looks like in our code
+
+```
+-- ***INVERSE KINEMATICS***
+function compute_geom_IK(target_pos,l1,l2,l3,l4)
+    -- Extracting target position coordinates
+    local x, y, z = target_pos[1], target_pos[2], target_pos[3]
+    -- Calculating IK parameters
+    local u = math.sqrt(x^2 + y^2) - l4
+    local h = z - l1
+    local v = math.sqrt(u^2 + h^2)
+    local alpha = math.atan2(h, u)
+    local gamma = math.acos((l2^2 + v^2 - l3^2) / (2 * l2 * v))
+    -- Calculating joint angles
+    local q1 = -1 * math.atan2(x, y)
+    local q2 = alpha - gamma
+    local q3 = math.pi - math.acos((l2^2 + l3^2 - v^2) / (2 * l2 * l3))
+    local q4 = -1 * (q2 + q3)
+
+    return {q1, q2, q3, q4}
+end
+```
+
+After implementing it, we checked it by dragging around the End Effector Point, just like in the homework we've done.  
 
 ![Untitled video - Made with Clipchamp (1)](https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/35c681f2-7a70-4d9f-bb4d-f37bd8b5223c)
 
