@@ -78,7 +78,11 @@ The Robot ended up having three states that it can move in between. If you imagi
 
 Below is a YouTube link showing the full range of capabilities of the robot.  
 
-[https://youtu.be/ubXWTYJRJ70](https://youtu.be/EmgYw7NU8t0)   
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=EmgYw7NU8t0" target="_blank">
+ <img src="http://img.youtube.com/vi/EmgYw7NU8t0/mqdefault.jpg" alt="Watch the video" width="600" height="338" border="10" />
+</a>
+
+In case that doesn't load here are some gifs demonstrating out robot in action.
 
 <img src="https://github.com/Sciguy128/CSDS-275-Final-Project/assets/152509988/e49d92b6-3c07-492c-bf76-e3b9a879c666" width="600" />  
 
